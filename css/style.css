@@ -6,6 +6,13 @@
  * Made By MaterializeCSS.com
  */
 
+.my-body {
+  margin: 0;
+  font-family: BlinkMacSystemFont;
+  font-size: medium;
+  
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -13,6 +20,19 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+}
+
+nav ul a {
+  font-size: 15px;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+label {
+  font-size: 10px;
+  padding: 5px;
 }
 
 .sidenav-trigger {
