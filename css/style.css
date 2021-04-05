@@ -5,11 +5,15 @@
  *
  * Made By MaterializeCSS.com
  */
+html {
+  scroll-behavior: smooth;
+}
 
 .my-body {
   margin: 0;
   font-family: BlinkMacSystemFont;
   font-size: medium;
+  background-color: #01fabe;
   
 }
 
@@ -30,9 +34,24 @@ nav a:hover {
   text-decoration: none;
 }
 
+.sticky {
+  overflow: hidden;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+}
+
+
 label {
   font-size: 10px;
   padding: 5px;
+}
+
+.header-img{
+  height: 50px;
+  width: 120px;
 }
 
 .sidenav-trigger {
@@ -72,8 +91,8 @@ label {
   font-size: inherit;
 }
 
-footer.page-footer {
-  margin: 0;
+.service-img{
+  height: 490px;
 }
 
 .float{
@@ -93,4 +112,18 @@ footer.page-footer {
 
 .my-float{
   margin-top:16px;
+}
+
+
+
+footer.page-footer {
+  margin: 0;
+}
+
+.footer-text{
+  font-size: 30px;
+}
+
+.footer-icons{
+  font-size:30px;
 }

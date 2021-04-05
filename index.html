@@ -17,14 +17,22 @@
 </head>
 <body class="my-body">
 <nav class="white" role="navigation">
-  <div class="nav-wrapper container">
-    <a id="logo-container" href="#" class="brand-logo">Logo</a>
+  <div class="nav-wrapper container warmi-pink-text">
+    <a id="logo-container" href="#" class="brand-logo">
+      <img src="media/logos/Warmi_Logo_fondotransparente_1.png" alt="warmi logo" class="header-img">
+    </a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="#">Navbar Link</a></li>
+      <li><a href="#index-banner">ABOUT US</a></li>    
+      <li><a href="#services">SERVICES</a></li>    
+      <li><a href="#team">TEAM</a></li>
+      <li><a href="#contact">CONTACT US</a></li>
     </ul>
 
     <ul id="nav-mobile" class="sidenav">
-      <li><a href="#">Navbar Link</a></li>
+      <li><a href="#index-banner">ABOUT US</a></li>
+      <li><a href="#services">SERVICES</a></li>
+      <li><a href="#team">TEAM</a></li>
+      <li><a href="#contact">CONTACT US</a></li>
     </ul>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
@@ -34,7 +42,7 @@
 
   <div class="container">
     <br><br>
-    <h1 class="header center teal-text text-lighten-2">Bienvenidos!</h1>
+    <h1 class="header center warmi-pink-text text-lighten-2">Bienvenidos!</h1>
     <div class="row center">
 <!--      <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
     </div>   
@@ -42,18 +50,22 @@
 
   </div>
 
-  <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+  <div class="parallax"><img src="media/backgrounds/background1.jpg" alt="Unsplashed background img 1"></div>
 </div>
 
 
-<div class="container">
+<div class="container" id="services">
   <div class="section">
-
-    <!--   Icon Section   -->
     <div class="row">
+      <div class="col s12 center">
+        <h2><i class="mdi-content-send warmi-violet-text">SERVICES</i></h2>
+      </div>
+    </div>
+    <!--   Icon Section   -->
+    <div class="row">      
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+          <h2 class="center warmi-lyla-text"><i class="material-icons">flash_on</i></h2>
           <h5 class="center">Speeds up development</h5>
 
           <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
@@ -62,7 +74,7 @@
 
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+          <h2 class="center warmi-lyla-text"><i class="material-icons">group</i></h2>
           <h5 class="center">User Experience Focused</h5>
 
           <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
@@ -71,7 +83,7 @@
 
       <div class="col s12 m4">
         <div class="icon-block">
-          <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+          <h2 class="center warmi-lyla-text"><i class="material-icons">settings</i></h2>
           <h5 class="center">Easy to work with</h5>
 
           <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
@@ -91,33 +103,33 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  <div class="parallax"><img src="media/backgrounds/background2.jpg" alt="Unsplashed background img 2"></div>
 </div>
 
-<div class="container">
+<div class="container" id="team">
   <div class="section">
     <div class="row">
       <div class="col s12 center">
-        <h2><i class="mdi-content-send brown-text">OUR TEAM</i></h2>        
+        <h2><i class="mdi-content-send warmi-violet-text">OUR TEAM</i></h2>        
       </div>
     </div>
     <div class="card-deck">
       <div class="card">
-        <img class="card-img-top" src="me.jpg" alt="Card image cap">
+        <img class="card-img-top service-img" src="media/photos/ironman.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="me.jpg" alt="Card image cap">
+        <img class="card-img-top service-img" src="media/photos/spiderman.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         </div>        
       </div>
       <div class="card">
-        <img class="card-img-top" src="me.jpg" alt="Card image cap">
+        <img class="card-img-top service-img" src="media/photos/thor.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -126,21 +138,21 @@
     </div><br>
     <div class="card-deck">
       <div class="card">
-        <img class="card-img-top" src="me.jpg" alt="Card image cap">
+        <img class="card-img-top service-img" src="media/photos/drstrange.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="me.jpg" alt="Card image cap">
+        <img class="card-img-top service-img" src="media/photos/blackwidow.jpg" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="me.jpg" alt="Card image cap">
+        <img class="card-img-top service-img" src="media/photos/hulk.gif" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -150,12 +162,12 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container" id="contact">
   <div class="section">
 
     <div class="row">
       <div class="col s12 center">
-        <h2><i class="mdi-content-send brown-text">Contact Us</i></h2>
+        <h2><i class="mdi-content-send warmi-violet-text">Contact Us</i></h2>
         <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc
           nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros.
           Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget,
@@ -169,7 +181,7 @@
         
         <div class="container center-align">
           <button type="button" data-toggle="modal" data-target="#myModal" id="download-button"
-                  class="btn-large waves-effect waves-light teal lighten-1">Contact Us!
+                  class="btn-large waves-effect waves-light warmi-violet lighten-1">Contact Us!
           </button>
           <div id="myModal" class="modal fade" role="dialog">
             <div class="modal-dialog">
@@ -206,7 +218,23 @@
             </div>
           </div>
         </div>
-      </div>
+      </div><br>
+
+      
+        <div class="offset-lg-3"></div>
+        <div class="col-lg-6">
+          <form class="text-center" action="#!">
+            <input type="text" class="form-control mb-3" placeholder="Nombre">
+            <input type="number" class="form-control mb-3" placeholder="Teléfono">
+            <input type="email" class="form-control mb-3" placeholder="Email">
+            <div class="form-group">
+              <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+            </div>
+            <button class="btn btn-primary btn-block" type="submit">Enviar</button>
+          </form>
+        </div>
+        <div class="offset-lg-3"></div>
+      
     </div>
 
   </div>
@@ -222,7 +250,7 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  <div class="parallax"><img src="media/backgrounds/background3.jpg" alt="Unsplashed background img 3"></div>
 </div>
 
 <a href="https://api.whatsapp.com/send?phone=5492616008655" class="float" target="_blank">
@@ -233,13 +261,13 @@
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
-        <h5 class="white-text">Company Bio</h5>
+        <h5 class="white-text footer-text">Company Bio</h5>
         <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
 
       </div>
       <div class="col l3 s12">
-        <h5 class="white-text">Settings</h5>
+        <h5 class="white-text footer-text">Settings</h5>
         <ul>
           <li><a class="white-text" href="#!">Link 1</a></li>
           <li><a class="white-text" href="#!">Link 2</a></li>
@@ -248,12 +276,28 @@
         </ul>
       </div>
       <div class="col l3 s12">
-        <h5 class="white-text">Connect</h5>
+        <h5 class="white-text footer-text">Connect</h5>
         <ul>
-          <li><a class="white-text" href="#!">Link 1</a></li>
-          <li><a class="white-text" href="#!">Link 2</a></li>
-          <li><a class="white-text" href="#!">Link 3</a></li>
-          <li><a class="white-text" href="#!">Link 4</a></li>
+          <li>
+            <a class="white-text footer-icons" href="https://www.instagram.com">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a class="white-text footer-icons" href="https://www.facebook.com">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a class="white-text footer-icons" href="https://www.twitter.com">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a class="white-text footer-icons" href="https://www.linkedin.com">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>        
         </ul>
       </div>
     </div>

@@ -2139,6 +2139,27 @@
   color: transparent !important;
 }
 
+.warmi-lyla-text{
+  color: #7651ee
+}
+
+.warmi-violet-text{
+  color: #4a3288
+}
+
+.warmi-pink-text{
+  color: #f85fbf
+}
+
+.warmi-cian-text{
+  color: #01fabe
+}
+
+.warmi-violet{
+  background-color: #4a3288 !important;
+}
+
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -5692,7 +5713,6 @@ body.keyboard-focused .dropdown-content li:focus {
 .waves-effect.waves-teal .waves-ripple {
   background-color: rgba(0, 150, 136, 0.7);
 }
-
 .waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"] {
   border: 0;
   font-style: normal;
