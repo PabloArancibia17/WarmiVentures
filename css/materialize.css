@@ -4437,7 +4437,9 @@ nav ul a.btn > .material-icons, nav ul a.btn-large > .material-icons, nav ul a.b
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px 10px 10px 10px;
+  background-color: #7651ee;
+  color: pink;  
 }
 
 nav ul.left {

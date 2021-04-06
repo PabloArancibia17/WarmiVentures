@@ -17,22 +17,22 @@
 </head>
 <body class="my-body">
 <nav class="white" role="navigation">
-  <div class="nav-wrapper container warmi-pink-text">
+  <div class="nav-wrapper container">
     <a id="logo-container" href="#" class="brand-logo">
       <img src="media/logos/Warmi_Logo_fondotransparente_1.png" alt="warmi logo" class="header-img">
     </a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="#index-banner">ABOUT US</a></li>    
-      <li><a href="#services">SERVICES</a></li>    
-      <li><a href="#team">TEAM</a></li>
-      <li><a href="#contact">CONTACT US</a></li>
+      <li><a href="#" class="warmi-pink-text">ABOUT US</a></li>    
+      <li><a href="#services" class="warmi-pink-text">SERVICES</a></li>    
+      <li><a href="#team" class="warmi-pink-text">TEAM</a></li>
+      <li><a href="#contact" class="warmi-pink-text">CONTACT US</a></li>
     </ul>
 
     <ul id="nav-mobile" class="sidenav">
-      <li><a href="#index-banner">ABOUT US</a></li>
-      <li><a href="#services">SERVICES</a></li>
-      <li><a href="#team">TEAM</a></li>
-      <li><a href="#contact">CONTACT US</a></li>
+      <li><a href="#index-banner" class="warmi-pink-text">ABOUT US</a></li>
+      <li><a href="#services" class="warmi-pink-text">SERVICES</a></li>
+      <li><a href="#team" class="warmi-pink-text">TEAM</a></li>
+      <li><a href="#contact"class="warmi-pink-text">CONTACT US</a></li>
     </ul>
     <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
@@ -42,7 +42,7 @@
 
   <div class="container">
     <br><br>
-    <h1 class="header center warmi-pink-text text-lighten-2">Bienvenidos!</h1>
+<!--    <h1 class="header center warmi-pink-text text-lighten-2">Bienvenidos!</h1>-->
     <div class="row center">
 <!--      <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
     </div>   
@@ -223,17 +223,28 @@
       
         <div class="offset-lg-3"></div>
         <div class="col-lg-6">
-          <form class="text-center" action="#!">
-            <input type="text" class="form-control mb-3" placeholder="Nombre">
-            <input type="number" class="form-control mb-3" placeholder="Teléfono">
-            <input type="email" class="form-control mb-3" placeholder="Email">
+          <form class="text-center" method="post" action="send.php">
+            <input name="nombre" type="text" class="form-control mb-3" placeholder="Nombre" required>
+            <input name="telefono" type="number" class="form-control mb-3" placeholder="Teléfono">
+            <input name="email" type="email" class="form-control mb-3" placeholder="Email">
             <div class="form-group">
-              <textarea class="form-control" rows="3" placeholder="Mensaje"></textarea>
+              <textarea name="mensaje" class="form-control" rows="3" placeholder="Mensaje" required></textarea>
             </div>
-            <button class="btn btn-primary btn-block" type="submit">Enviar</button>
+            <button class="btn warmi-violet btn-block form-control" type="submit">Enviar</button>
           </form>
         </div>
         <div class="offset-lg-3"></div>
+
+<!--      <form action="" method="post" enctype="text/plain">-->
+<!--        Name:<br>-->
+<!--        <input type="text" name="name"><br>-->
+<!--        E-mail:<br>-->
+<!--        <input type="text" name="mail"><br>-->
+<!--        Comment:<br>-->
+<!--        <input type="text" name="comment" size="50"><br><br>-->
+<!--        <input type="submit" value="Send">-->
+<!--        <input type="reset" value="Reset">-->
+<!--      </form>-->
       
     </div>
 
@@ -257,7 +268,7 @@
   <i class="fa fa-whatsapp my-float"></i>
 </a>
 
-<footer class="page-footer teal">
+<footer class="page-footer warmi-violet">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">

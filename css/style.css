@@ -34,13 +34,12 @@ nav a:hover {
   text-decoration: none;
 }
 
-.sticky {
-  overflow: hidden;
+.sticky {  
   background: white;
   position: fixed;
   top: 0;
   width: 100%;
-  
+  z-index: auto;
 }
 
 
